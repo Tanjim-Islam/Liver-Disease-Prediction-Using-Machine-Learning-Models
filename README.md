@@ -32,7 +32,7 @@ This project explores the use of various machine learning models to predict the 
 
     ```bash
     git clone https://github.com/Tanjim-Islam/Liver-Disease-Prediction-Using-Machine-Learning-Models.git
-    cd Liver-Disease-Prediction
+    cd Liver-Disease-Prediction-Using-Machine-Learning-Models
     ```
 
 2. **Install Dependencies:**
