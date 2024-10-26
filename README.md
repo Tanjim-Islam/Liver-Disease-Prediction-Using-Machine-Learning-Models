@@ -89,24 +89,3 @@ A bar plot comparing the **accuracy** and **ROC-AUC** scores of various models:
 ROC curves showing the trade-off between sensitivity and specificity for each model:
 
 ![ROC - Liver Disease Prediction](Images/roc_liver.jpeg)
-
-## Example Prediction
-
-Below is a sample prediction using the saved Logistic Regression model (`liver.pkl`):
-
-```python
-import numpy as np
-import pickle
-
-model = pickle.load(open("liver.pkl", 'rb'))
-
-input_data = (45, 1, 1.5, 20, 50, 120, 30, 45, 0.9, 0, 1)
-
-reshaped_data = np.array(input_data).reshape(1, -1)
-prediction = model.predict(reshaped_data)
-
-if prediction[0] == 1:
-    print("The patient has liver disease.")
-else:
-    print("The patient does not have liver disease.")
-```
