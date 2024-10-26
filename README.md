@@ -31,7 +31,7 @@ This project explores the use of various machine learning models to predict the 
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/Tanjim-Islam/Liver-Disease-Prediction.git
+    git clone https://github.com/Tanjim-Islam/Liver-Disease-Prediction-Using-Machine-Learning-Models.git
     cd Liver-Disease-Prediction
     ```
 
